@@ -1,0 +1,40 @@
+{
+    "match-criterion": [
+        {
+            "index": 2,
+            "match-type": [
+                {
+                    "type": "ietf-nss:vlan",
+                    "value": [
+                        "101"
+                    ]
+                },
+                {
+                    "type": "ietf-nss:source-ip-prefix",
+                    "value": [
+                        "172.1.101.22/24"
+                    ]
+                },
+                {
+                    "type": "ietf-nss:source-tcp-port",
+                    "value": [
+                        "10200"
+                    ]
+                },
+                {
+                    "type": "ietf-nss:destination-ip-prefix",
+                    "value": [
+                        "172.16.104.222/24"
+                    ]
+                },
+                {
+                    "type": "ietf-nss:destination-tcp-port",
+                    "value": [
+                        "10500"
+                    ]
+                }
+            ],
+            "target-connection-group-id": "line2"
+        }
+    ]
+}

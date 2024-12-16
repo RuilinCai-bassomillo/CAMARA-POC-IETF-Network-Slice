@@ -1,0 +1,62 @@
+{
+    "connection-group": [
+        {
+            "id": "line2",
+            "connectivity-type": "ietf-vpn-common:point-to-point",
+            "connectivity-construct": [
+                {
+                    "id": 1,
+                    "p2mp-sender-sdp": "1",
+                    "p2mp-receiver-sdp": "3",
+                    "service-slo-sle-policy": {
+                        "slo-policy": {
+                            "metric-bound": [
+                                {
+                                    "metric-type": "ietf-nss:one-way-delay-maximum",
+                                    "metric-unit": "milliseconds",
+                                    "bound": "10"
+                                },
+                                {
+                                    "metric-type": "ietf-nss:one-way-bandwidth",
+                                    "metric-unit": "Mbps",
+                                    "bound": "5000"
+                                },
+                                {
+                                    "metric-type": "ietf-nss:two-way-packet-loss",
+                                    "metric-unit": "percentage",
+                                    "percentile-value": "0.001"
+                                }
+                            ]
+                        }
+                    }
+                },
+                {
+                    "id": 2,
+                    "p2mp-sender-sdp": "3",
+                    "p2mp-receiver-sdp": "1",
+                    "service-slo-sle-policy": {
+                        "slo-policy": {
+                            "metric-bound": [
+                                {
+                                    "metric-type": "ietf-nss:one-way-delay-maximum",
+                                    "metric-unit": "milliseconds",
+                                    "bound": "20"
+                                },
+                                {
+                                    "metric-type": "ietf-nss:one-way-bandwidth",
+                                    "metric-unit": "Mbps",
+                                    "bound": "1000"
+                                },
+                                {
+                                    "metric-type": "ietf-nss:two-way-packet-loss",
+                                    "metric-unit": "percentage",
+                                    "percentile-value": "0.001"
+                                }
+                            ]
+                        }
+                    }
+                }
+            ]
+        }
+    ]
+}
