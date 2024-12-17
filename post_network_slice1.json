@@ -62,41 +62,39 @@
                     },
                     {
                         "id": "2",
-                        "node-id": "172.16.104.221",
-                        "sdp-ip-address": [
-                            "172.16.104.221"
-                        ],
+                        "node-id": "172.16.61.10",
+                        "sdp-ip-address": "172.16.61.10",
                         "service-match-criteria": {
                             "match-criterion": [
                                 {
                                     "index": 1,
                                     "match-type": [
                                         {
-                                            "type": "ietf-network-slice-service:vlan",
+                                            "type": "ietf-nss:vlan",
                                             "value": [
-                                                "101"
+                                                "21"
                                             ]
                                         },
                                         {
-                                            "type": "ietf-network-slice-service:source-ip-prefix",
+                                            "type": "ietf-nss:source-ip-prefix",
                                             "value": [
                                                 "172.16.104.221/24"
                                             ]
                                         },
                                         {
-                                           "type": "ietf-network-slice-service:source-tcp-port",
+                                           "type": "ietf-nss:source-tcp-port",
                                             "value": [
                                                 "10500"
                                             ] 
                                         },
                                         {
-                                            "type": "ietf-network-slice-service:destination-ip-prefix",
+                                            "type": "ietf-nss:destination-ip-prefix",
                                             "value": [
                                                 "172.1.101.22/24"
                                             ]
                                         },
                                         {
-                                           "type": "ietf-network-slice-service:destination-tcp-port",
+                                           "type": "ietf-nss:destination-tcp-port",
                                             "value": [
                                                 "10200"
                                             ] 
@@ -109,10 +107,10 @@
                         "attachment-circuits": {
                             "attachment-circuit": [
                                 {
-                                    "id": "AC POP to VM1",
-                                    "description": "AC VM1 connected to POP",
-                                    "ac-node-id": "172.16.104.221",
-                                    "ac-tp-id": "eth0"
+                                    "id": "AC ONT",
+                                    "description": "AC connected to PC1",
+                                    "ac-node-id": "172.16.61.10",
+                                    "ac-tp-id": "200"
                                 }
                             ]
                         }
