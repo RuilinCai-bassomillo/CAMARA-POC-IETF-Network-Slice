@@ -217,8 +217,8 @@
                             "connectivity-construct": [
                                 {
                                     "id": 1,
-                                    "p2mp-sender-sdp": "1",
-                                    "p2mp-receiver-sdp": "2",
+                                    "p2p-sender-sdp": "1",
+                                    "p2p-receiver-sdp": "2",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -243,8 +243,8 @@
                                 },
                                 {
                                     "id": 2,
-                                    "p2mp-sender-sdp": "2",
-                                    "p2mp-receiver-sdp": "1",
+                                    "p2p-sender-sdp": "2",
+                                    "p2p-receiver-sdp": "1",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -275,8 +275,8 @@
                             "connectivity-construct": [
                                 {
                                     "id": 1,
-                                    "p2mp-sender-sdp": "1",
-                                    "p2mp-receiver-sdp": "3",
+                                    "p2p-sender-sdp": "1",
+                                    "p2p-receiver-sdp": "3",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -301,8 +301,8 @@
                                 },
                                 {
                                     "id": 2,
-                                    "p2mp-sender-sdp": "3",
-                                    "p2mp-receiver-sdp": "1",
+                                    "p2p-sender-sdp": "3",
+                                    "p2p-receiver-sdp": "1",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -548,8 +548,8 @@
                             "connectivity-construct": [
                                 {
                                     "id": 1,
-                                    "p2mp-sender-sdp": "1",
-                                    "p2mp-receiver-sdp": "2",
+                                    "p2p-sender-sdp": "1",
+                                    "p2p-receiver-sdp": "2",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -574,8 +574,8 @@
                                 },
                                 {
                                     "id": 2,
-                                    "p2mp-sender-sdp": "2",
-                                    "p2mp-receiver-sdp": "1",
+                                    "p2p-sender-sdp": "2",
+                                    "p2p-receiver-sdp": "1",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -606,8 +606,8 @@
                             "connectivity-construct": [
                                 {
                                     "id": 1,
-                                    "p2mp-sender-sdp": "1",
-                                    "p2mp-receiver-sdp": "3",
+                                    "p2p-sender-sdp": "1",
+                                    "p2p-receiver-sdp": "3",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
@@ -632,8 +632,8 @@
                                 },
                                 {
                                     "id": 2,
-                                    "p2mp-sender-sdp": "3",
-                                    "p2mp-receiver-sdp": "1",
+                                    "p2p-sender-sdp": "3",
+                                    "p2p-receiver-sdp": "1",
                                     "service-slo-sle-policy": {
                                         "slo-policy": {
                                             "metric-bound": [
