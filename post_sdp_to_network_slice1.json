@@ -3,38 +3,40 @@
         {
             "id": "3",
             "node-id": "172.16.61.11",
-            "sdp-ip-address": "172.16.61.11",
+            "sdp-ip-address": [
+                "172.16.61.11"
+            ],
             "service-match-criteria": {
                 "match-criterion": [
                     {
                         "index": 1,
                         "match-type": [
                             {
-                                "type": "ietf-nss:vlan",
+                                "type": "ietf-network-slice-service:vlan",
                                 "value": [
                                     "21"
                                 ]
                             },
                             {
-                                "type": "ietf-nss:source-ip-prefix",
+                                "type": "ietf-network-slice-service:source-ip-prefix",
                                 "value": [
                                     "172.16.104.222/24"
                                 ]
                             },
                             {
-                                "type": "ietf-nss:source-tcp-port",
+                                "type": "ietf-network-slice-service:source-tcp-port",
                                 "value": [
                                     "10500"
                                 ]
                             },
                             {
-                                "type": "ietf-nss:destination-ip-prefix",
+                                "type": "ietf-network-slice-service:destination-ip-prefix",
                                 "value": [
                                     "172.1.101.22/24"
                                 ]
                             },
                             {
-                                "type": "ietf-nss:destination-tcp-port",
+                                "type": "ietf-network-slice-service:destination-tcp-port",
                                 "value": [
                                     "10200"
                                 ]

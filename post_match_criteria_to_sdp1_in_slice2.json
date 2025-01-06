@@ -4,31 +4,31 @@
             "index": 2,
             "match-type": [
                 {
-                    "type": "ietf-nss:vlan",
+                    "type": "ietf-network-slice-service:vlan",
                     "value": [
                         "201"
                     ]
                 },
                 {
-                    "type": "ietf-nss:source-ip-prefix",
+                    "type": "ietf-network-slice-service:source-ip-prefix",
                     "value": [
                         "172.1.201.22/24"
                     ]
                 },
                 {
-                    "type": "ietf-nss:source-tcp-port",
+                    "type": "ietf-network-slice-service:source-tcp-port",
                     "value": [
                         "10200"
                     ]
                 },
                 {
-                    "type": "ietf-nss:destination-ip-prefix",
+                    "type": "ietf-network-slice-service:destination-ip-prefix",
                     "value": [
                         "172.16.104.222/24"
                     ]
                 },
                 {
-                    "type": "ietf-nss:destination-tcp-port",
+                    "type": "ietf-network-slice-service:destination-tcp-port",
                     "value": [
                         "10500"
                     ]
