@@ -3301,6 +3301,190 @@
                         }
                     }
                 ]
+            },
+            {
+                "network-id": "e2e-slice-simap-1",
+                "supporting-network": [
+                    {
+                        "network-ref": "providerId-10-clientId-0-topologyId-2"
+                    },
+                    {
+                        "network-ref": "aggnet-simap-1"
+                    }
+                ],
+                "node": [
+                    {
+                        "node-id": "node-1",
+                        "spporting-node": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "node-ref": "172.16.61.10",
+                                "tp-ref": "500"
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "node-2",
+                        "spporting-node": [
+                            {
+                                "network-ref": "aggnet-simap-1",
+                                "node-ref": "node-2",
+                                "tp-ref": "tp-2"
+                            }
+                        ]
+                    }
+                ],
+                "ietf-network-topology:link": [
+                    {
+                        "link-id": "link-1",
+                        "source": {
+                            "source-node": "node-1",
+                            "source-tp": "tp-1"
+                        },
+                        "destination": {
+                            "dest-node": "node-2",
+                            "dest-tp": "tp-2"
+                        },
+                        "simap-telemetry": {
+                        "bandwidth-utilization": 76.5,
+                        "latency": 2.3,
+                        "related-service-ids": ["service1"]
+                        },
+                        "supporting-link": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "link-ref": "172.16.61.10-500"
+                            },
+                            {
+                                "network-ref": "aggnet-simap-1",
+                                "link-ref": "link-1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "network-id": "aggnet-simap-1",
+                "supporting-network": [
+                    {
+                        "network-ref": "providerId-10-clientId-0-topologyId-2"
+                    },
+                    {
+                        "network-ref": "trans-simap-1"
+                    }
+                ],
+                "node": [
+                    {
+                        "node-id": "node-1",
+                        "supporting-node": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "node-ref": "172.16.58.10",
+                                "tp-ref": "500"
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "node-2",
+                        "supporting-node": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "node-ref": "172.16.204.220",
+                                "tp-ref": "500"
+                            }
+                        ]
+                    }
+                ],
+                "ietf-network-topology:link": [
+                    {
+                        "link-id": "link-1",
+                        "source": {
+                            "source-node": "node-1",
+                            "source-tp": "tp-1"
+                        },
+                        "destination": {
+                            "dest-node": "node-2",
+                            "dest-tp": "tp-2"
+                        },
+                        "simap-telemetry": {
+                        "bandwidth-utilization": 76.5,
+                        "latency": 2.3,
+                        "related-service-ids": ["service1"]
+                        },
+                        "spporting-link": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "link-ref": "172.16.58.10-500"
+                            },
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "link-ref": "172.16.204.220-500"
+                            },
+                            {
+                                "network-ref": "trans-simap-1",
+                                "link-ref": "link-1"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "network-id": "trans-simap-1",
+                "supporting-network": [
+                    {
+                        "network-ref": "providerId-10-clientId-0-topologyId-2"
+                    }
+                ],
+                "node": [
+                    {
+                        "node-id": "node-1",
+                        "supporting-node": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "node-ref": "172.16.182.25",
+                                "tp-ref": "500"
+                            }
+                        ]
+                    },
+                    {
+                        "node-id": "node-2",
+                        "supporting-node": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "node-ref": "172.16.185.32",
+                                "tp-ref": "500"
+                            }
+                        ]
+                    }
+                ],
+                "ietf-network-topology:link": [
+                    {
+                        "link-id": "link-1",
+                        "source": {
+                            "source-node": "node-1",
+                            "source-tp": "tp-1"
+                        },
+                        "destination": {
+                            "dest-node": "node-2",
+                            "dest-tp": "tp-2"
+                        },
+                        "simap-telemetry": {
+                        "bandwidth-utilization": 76.5,
+                        "latency": 2.3,
+                        "related-service-ids": ["service1"]
+                        },
+                        "supporting-link": [
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "link-ref": "172.16.182.25-500"
+                            },
+                            {
+                                "network-ref": "providerId-10-clientId-0-topologyId-2",
+                                "link-ref": "172.16.182.33-500"
+                            }
+                        ]
+                    }
+                ]
             }
         ]
     }

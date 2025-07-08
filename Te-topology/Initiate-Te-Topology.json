@@ -446,7 +446,7 @@
                             "source-tp": "501"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.31",
+                            "dest-node": "172.16.185.31",
                             "dest-tp": "501"
                         },
                         "ietf-te-topology:te": {
@@ -801,6 +801,448 @@
                     }
                 },
                 "node": [
+                    {
+                        "node-id": "172.16.122.25",
+                        "ietf-te-topology:te-node-id": "172.16.122.25",
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "200",
+                                "ietf-te-topology:te-tp-id": "128.32.44.254",
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": true,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "501",
+                                "ietf-te-topology:te-tp-id": 501,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "500",
+                                "ietf-te-topology:te-tp-id": 500,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-node-attributes": {
+                                "admin-status": "up",
+                                "name": "PE"
+                            }
+                        }
+                    },
+                    {
+                        "node-id": "172.16.125.31",
+                        "ietf-te-topology:te-node-id": "172.16.125.31",
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "501",
+                                "ietf-te-topology:te-tp-id": 501,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "500",
+                                "ietf-te-topology:te-tp-id": 500,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-node-attributes": {
+                                "admin-status": "up",
+                                "name": "P"
+                            }
+                        }
+                    },
+                    {
+                        "node-id": "172.16.125.33",
+                        "ietf-te-topology:te-node-id": "172.16.125.33",
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "501",
+                                "ietf-te-topology:te-tp-id": 501,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "500",
+                                "ietf-te-topology:te-tp-id": 500,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-node-attributes": {
+                                "admin-status": "up",
+                                "name": "P"
+                            }
+                        }
+                    },
+                    {
+                        "node-id": "172.16.125.32",
+                        "ietf-te-topology:te-node-id": "172.16.125.32",
+                        "ietf-network-topology:termination-point": [
+                            {
+                                "tp-id": "200",
+                                "ietf-te-topology:te-tp-id": "172.10.44.254",
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": true,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "501",
+                                "ietf-te-topology:te-tp-id": 501,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
+                                "tp-id": "500",
+                                "ietf-te-topology:te-tp-id": 500,
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            }
+                        ],
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-node-attributes": {
+                                "admin-status": "up",
+                                "name": "PE"
+                            }
+                        }
+                    },
                     {
                         "node-id": "172.16.182.25",
                         "ietf-te-topology:te-node-id": "172.16.182.25",
@@ -1248,6 +1690,45 @@
                         "ietf-te-topology:te-node-id": "172.16.58.10",
                         "ietf-network-topology:termination-point": [
                             {
+                                "tp-id": "501",
+                                "ietf-te-topology:te-tp-id": "128.32.44.2",
+                                "ietf-eth-te-topology:eth-svc": {
+                                    "client-facing": false,
+                                    "supported-classification": {
+                                        "port-classification": true,
+                                        "vlan-classification": {
+                                            "outer-tag": {
+                                                "supported-tag-types": [
+                                                    "ietf-eth-tran-types:classify-c-vlan",
+                                                    "ietf-eth-tran-types:classify-s-vlan"
+                                                ],
+                                                "vlan-bundling": false,
+                                                "vlan-range": "1-4094"
+                                            }
+                                        }
+                                    }
+                                },
+                                "ietf-te-topology:te": {
+                                    "name": "endpoint:111",
+                                    "admin-status": "up",
+                                    "oper-status": "up",
+                                    "interface-switching-capability": [
+                                        {
+                                            "encoding": "ietf-te-types:lsp-encoding-ethernet",
+                                            "switching-capability": "ietf-te-types:switching-l2sc",
+                                            "max-lsp-bandwidth": [
+                                                {
+                                                    "priority": 7,
+                                                    "te-bandwidth": {
+                                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                                    }
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            },
+                            {
                                 "tp-id": "500",
                                 "ietf-te-topology:te-tp-id": "128.32.33.2",
                                 "ietf-eth-te-topology:eth-svc": {
@@ -1508,6 +1989,38 @@
                         }
                     },
                     {
+                        "link-id": "172.16.122.25-200",
+                        "source": {
+                            "source-node": "172.16.122.25",
+                            "source-tp": "200"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.58.10",
+                            "dest-tp": "501"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.122.25-200",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
                         "link-id": "172.16.58.10-500",
                         "source": {
                             "source-node": "172.16.58.10",
@@ -1523,6 +2036,38 @@
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
                                 "name": "172.16.58.10-500",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.58.10-501",
+                        "source": {
+                            "source-node": "172.16.58.10",
+                            "source-tp": "501"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.122.25",
+                            "dest-tp": "200"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.58.10-501",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -1779,6 +2324,262 @@
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
                                 "name": "172.16.185.32-500",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.122.25-501",
+                        "source": {
+                            "source-node": "172.16.122.25",
+                            "source-tp": "501"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.31",
+                            "dest-tp": "501"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.122.25-501",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.122.25-500",
+                        "source": {
+                            "source-node": "172.16.122.25",
+                            "source-tp": "500"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.33",
+                            "dest-tp": "500"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.122.25-500",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.31-501",
+                        "source": {
+                            "source-node": "172.16.125.31",
+                            "source-tp": "501"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.122.25",
+                            "dest-tp": "501"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.31-501",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.31-500",
+                        "source": {
+                            "source-node": "172.16.125.31",
+                            "source-tp": "500"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.32",
+                            "dest-tp": "500"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.31-500",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.33-501",
+                        "source": {
+                            "source-node": "172.16.125.33",
+                            "source-tp": "501"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.32",
+                            "dest-tp": "501"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.33-501",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.33-500",
+                        "source": {
+                            "source-node": "172.16.125.33",
+                            "source-tp": "500"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.122.25",
+                            "dest-tp": "500"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.33-500",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.32-501",
+                        "source": {
+                            "source-node": "172.16.125.32",
+                            "source-tp": "501"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.33",
+                            "dest-tp": "501"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.32-501",
+                                "max-link-bandwidth": {
+                                    "te-bandwidth": {
+                                        "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                    }
+                                },
+                                "unreserved-bandwidth": [
+                                    {
+                                        "priority": 7,
+                                        "te-bandwidth": {
+                                            "ietf-eth-te-topology:eth-bandwidth": 10000000
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    },
+                    {
+                        "link-id": "172.16.125.32-500",
+                        "source": {
+                            "source-node": "172.16.125.32",
+                            "source-tp": "500"
+                        },
+                        "destination": {
+                            "dest-node": "172.16.125.31",
+                            "dest-tp": "500"
+                        },
+                        "ietf-te-topology:te": {
+                            "oper-status": "up",
+                            "te-link-attributes": {
+                                "access-type": "point-to-point",
+                                "admin-status": "up",
+                                "name": "172.16.125.32-500",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
