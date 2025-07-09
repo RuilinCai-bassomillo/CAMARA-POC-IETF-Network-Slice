@@ -3303,13 +3303,13 @@
                 ]
             },
             {
-                "network-id": "e2e-slice-simap-1",
+                "network-id": "e2e-slice-simap-2",
                 "supporting-network": [
                     {
                         "network-ref": "providerId-10-clientId-0-topologyId-2"
                     },
                     {
-                        "network-ref": "aggnet-simap-1"
+                        "network-ref": "aggnet-simap-2"
                     }
                 ],
                 "node": [
@@ -3327,7 +3327,7 @@
                         "node-id": "node-2",
                         "spporting-node": [
                             {
-                                "network-ref": "aggnet-simap-1",
+                                "network-ref": "aggnet-simap-2",
                                 "node-ref": "node-2",
                                 "tp-ref": "tp-2"
                             }
@@ -3356,7 +3356,7 @@
                                 "link-ref": "172.16.61.10-500"
                             },
                             {
-                                "network-ref": "aggnet-simap-1",
+                                "network-ref": "aggnet-simap-2",
                                 "link-ref": "link-1"
                             }
                         ]
@@ -3364,13 +3364,13 @@
                 ]
             },
             {
-                "network-id": "aggnet-simap-1",
+                "network-id": "aggnet-simap-2",
                 "supporting-network": [
                     {
                         "network-ref": "providerId-10-clientId-0-topologyId-2"
                     },
                     {
-                        "network-ref": "trans-simap-1"
+                        "network-ref": "trans-simap-2"
                     }
                 ],
                 "node": [
@@ -3421,7 +3421,7 @@
                                 "link-ref": "172.16.204.220-500"
                             },
                             {
-                                "network-ref": "trans-simap-1",
+                                "network-ref": "trans-simap-2",
                                 "link-ref": "link-1"
                             }
                         ]
@@ -3429,7 +3429,7 @@
                 ]
             },
             {
-                "network-id": "trans-simap-1",
+                "network-id": "trans-simap-2",
                 "supporting-network": [
                     {
                         "network-ref": "providerId-10-clientId-0-topologyId-2"
