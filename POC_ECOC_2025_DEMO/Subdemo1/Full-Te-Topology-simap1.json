@@ -3315,21 +3315,19 @@
                 "node": [
                     {
                         "node-id": "node-1",
-                        "spporting-node": [
+                        "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.61.10",
-                                "tp-ref": "500"
+                                "node-ref": "172.16.61.10"
                             }
                         ]
                     },
                     {
                         "node-id": "node-2",
-                        "spporting-node": [
+                        "supporting-node": [
                             {
                                 "network-ref": "aggnet-simap-1",
-                                "node-ref": "node-2",
-                                "tp-ref": "tp-2"
+                                "node-ref": "node-2"
                             }
                         ]
                     }
@@ -3346,11 +3344,11 @@
                             "dest-tp": "tp-2"
                         },
                         "simap-telemetry": {
-                        "bandwidth-utilization": 76.5,
-                        "latency": 2.3,
+                        "bandwidth-utilization": 76.51,
+                        "latency": 2.321,
                         "related-service-ids": ["service1"]
                         },
-                        "supporting-link": [
+                        "ietf-network-topology:supporting-link": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
                                 "link-ref": "172.16.61.10-500"
@@ -3379,8 +3377,7 @@
                         "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.58.10",
-                                "tp-ref": "500"
+                                "node-ref": "172.16.58.10"
                             }
                         ]
                     },
@@ -3389,8 +3386,7 @@
                         "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.204.221",
-                                "tp-ref": "500"
+                                "node-ref": "172.16.204.221"
                             }
                         ]
                     }
@@ -3407,11 +3403,11 @@
                             "dest-tp": "tp-2"
                         },
                         "simap-telemetry": {
-                        "bandwidth-utilization": 76.5,
-                        "latency": 2.3,
+                        "bandwidth-utilization": 76.51,
+                        "latency": 2.321,
                         "related-service-ids": ["service1"]
                         },
-                        "spporting-link": [
+                        "ietf-network-topology:supporting-link": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
                                 "link-ref": "172.16.58.10-500"
@@ -3441,8 +3437,7 @@
                         "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.122.25",
-                                "tp-ref": "500"
+                                "node-ref": "172.16.122.25"
                             }
                         ]
                     },
@@ -3451,8 +3446,7 @@
                         "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.125.32",
-                                "tp-ref": "500"
+                                "node-ref": "172.16.125.32"
                             }
                         ]
                     }
@@ -3469,11 +3463,11 @@
                             "dest-tp": "tp-2"
                         },
                         "simap-telemetry": {
-                        "bandwidth-utilization": 76.5,
-                        "latency": 2.3,
+                        "bandwidth-utilization": 76.51,
+                        "latency": 2.321,
                         "related-service-ids": ["service1"]
                         },
-                        "supporting-link": [
+                        "ietf-network-topology:supporting-link": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
                                 "link-ref": "172.16.122.25-500"
