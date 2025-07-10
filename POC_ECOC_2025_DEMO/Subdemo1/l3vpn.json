@@ -1,5 +1,5 @@
 {
-    "ietf-l3vpn-svc:l3vpn-svc": {
+    "ietf-l3vpn-svc:l3vpn-svc": { 
       "sites": {
         "site": [
           {
