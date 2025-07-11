@@ -1,0 +1,51 @@
+#===============================================================================# 
+POST /restconf/operations/subscriptions:establish-subscription
+
+{
+
+  "ietf-subscribed-notifications:input": {
+
+    "datastore": "operational",
+
+    "ietf-yang-push:datastore-xpath-filter": "/ietf-network:networks/network=${simapName}/ietf-network-topology:link=link-1/simap-telemetry",
+
+    "ietf-yang-push:periodic": {
+
+      "ietf-yang-push:period": "500"
+
+    }
+
+  }
+}
+
+Response: HTTP status code - 200
+
+{
+
+  "identifier": "22",
+
+  "uri": "/restconf/data/subscriptions/22"
+
+}
+
+#===============================================================================# 
+Request: GET /restconf/data/subscriptions/22
+
+event: notification
+data:
+{
+  "notification": {
+    "eventTime": "2024-07-11T10:00:00Z",
+    "subscriptionId": "22",
+    "data": {
+      "ietf-network-topology:simap-telemetry": {
+         "bandwidth-utilization": "76.51",
+         "latency": "2.321",
+            "related-service-ids": [
+               "e2e-network-slice-1"
+        ]
+      }
+    }
+  }
+}
+
