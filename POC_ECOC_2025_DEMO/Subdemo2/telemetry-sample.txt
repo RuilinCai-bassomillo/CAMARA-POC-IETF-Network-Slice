@@ -1,0 +1,25 @@
+#===============================================================================# 
+# Suppose there is a YANG datastore that contains the topology presented by the file
+# POC_ECOC_2025_DEMO/Subdemo1/Full-Te-Topology-simap1.json
+# The following is a sample of the telemetry data from the SIMAPs:"
+
+
+yangDsIp=127.0.0.1:8181
+
+simapName=e2e-slice-simap-1
+simapName=aggnet-simap-1
+simapName=trans-simap-1
+
+curl -X GET http://${yangDsIp}/restconf/data/ietf-network:networks/network=${simapName}/ietf-network-topology:link=link-1/simap-telemetry
+
+yang datastore response payload:
+
+{
+  "ietf-network-topology:simap-telemetry": {
+    "bandwidth-utilization": "76.51",
+    "latency": "2.321",
+    "related-service-ids": [
+      "e2e-network-slice-1"
+    ]
+  }
+}

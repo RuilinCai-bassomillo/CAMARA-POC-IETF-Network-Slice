@@ -3346,7 +3346,7 @@
                         "simap-telemetry": {
                         "bandwidth-utilization": 76.51,
                         "latency": 2.321,
-                        "related-service-ids": ["service1"]
+                        "related-service-ids": ["e2e-network-slice-1"]
                         },
                         "ietf-network-topology:supporting-link": [
                             {
@@ -3405,7 +3405,7 @@
                         "simap-telemetry": {
                         "bandwidth-utilization": 76.51,
                         "latency": 2.321,
-                        "related-service-ids": ["service1"]
+                        "related-service-ids": ["trans-network-slice-1"]
                         },
                         "ietf-network-topology:supporting-link": [
                             {
@@ -3465,7 +3465,7 @@
                         "simap-telemetry": {
                         "bandwidth-utilization": 76.51,
                         "latency": 2.321,
-                        "related-service-ids": ["service1"]
+                        "related-service-ids": ["l3sm-instance-1"]
                         },
                         "ietf-network-topology:supporting-link": [
                             {
