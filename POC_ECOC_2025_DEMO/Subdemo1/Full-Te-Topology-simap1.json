@@ -3410,7 +3410,7 @@
                         "ietf-network-topology:supporting-link": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "link-ref": "172.16.58.10-500"
+                                "link-ref": "172.16.58.10-501"
                             },
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
@@ -3474,7 +3474,7 @@
                             },
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "link-ref": "172.16.122.33-500"
+                                "link-ref": "172.16.125.33-501"
                             }
                         ]
                     }
