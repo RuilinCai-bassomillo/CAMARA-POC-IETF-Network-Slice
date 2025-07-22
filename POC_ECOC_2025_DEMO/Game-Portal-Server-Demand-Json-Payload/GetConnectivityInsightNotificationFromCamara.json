@@ -1,0 +1,37 @@
+{
+    "device": {
+        "ipv4Address": {
+            "publicAddress": "172.16.104.221",
+            "publicPort": 8080
+        }
+    },
+    "applicationServer": {
+        "ipv4Address": "172.1.101.22"
+    },
+    "devicePorts": {
+        "ports": [
+            8080
+        ]
+    },
+    "applicationServerPorts": {
+        "ports": [
+            31938
+        ]
+    },
+    "source": "https://notificationSendServer12.supertelco.com",
+    "specversion": "1.0",
+    "datacontenttype": "application/json",
+    "data": {
+        "papplicationProfileId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "packetDelayBudget": "meets the application requirements",
+        "targetMinDownstreamRate": "meets the application requirements",
+        "targetMinUpstreamRate": "meets the application requirements",
+        "packetlossErrorRate": "meets the application requirements",
+        "jitter": "meets the application requirements",
+        "additionalKpis": {
+            "signalStrength": "excellent",
+            "connectivityType": "5G-SA"
+        }
+    },
+    "time": "2023-07-03T12:27:08.312Z"
+}

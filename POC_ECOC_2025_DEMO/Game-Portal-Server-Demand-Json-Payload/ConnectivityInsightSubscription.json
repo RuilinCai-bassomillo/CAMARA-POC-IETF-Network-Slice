@@ -1,0 +1,41 @@
+{
+  "protocol": "HTTP",
+  "sink": "https://endpoint.example.com/sink",
+  "sinkCredential": {},
+  "types": [
+    "org.camaraproject.connectivity-insights-subscriptions.v0.network-quality"
+  ],
+  "config": {
+    "subscriptionDetail": {
+      "device": {
+        "phoneNumber": "123456789",
+        "networkAccessIdentifier": "123456789@domain.com",
+        "ipv4Address": {
+          "publicAddress": "84.125.93.10",
+          "publicPort": 59765
+        },
+        "ipv6Address": "2001:db8:85a3:8d3:1319:8a2e:370:7344"
+      },
+      "applicationServer": {
+        "ipv4Address": "192.168.0.1/24",
+        "ipv6Address": "2001:db8:85a3:8d3:1319:8a2e:370:7344"
+      },
+      "applicationServerPorts": {
+        "ranges": [
+          {
+            "from": 5010,
+            "to": 5020
+          }
+        ],
+        "ports": [
+          5060,
+          5070
+        ]
+      },
+      "applicationProfileId": "3fa85f64-5717-4562-b3fc-2c963f66afa6"
+    },
+    "subscriptionExpireTime": "2023-07-03T12:27:08.312Z",
+    "subscriptionMaxEvents": 5,
+    "initialEvent": true
+  }
+}

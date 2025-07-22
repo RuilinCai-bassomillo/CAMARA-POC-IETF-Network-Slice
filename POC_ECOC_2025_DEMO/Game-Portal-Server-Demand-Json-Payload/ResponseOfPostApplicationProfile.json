@@ -1,0 +1,22 @@
+{
+  "applicationProfileId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+  "networkQualityThresholds": {
+    "packetDelayBudget": {
+      "value": 12,
+      "unit": "Minutes"
+    },
+    "targetMinDownstreamRate": {
+      "value": 10,
+      "unit": "bps"
+    },
+    "targetMinUpstreamRate": {
+      "value": 10,
+      "unit": "bps"
+    },
+    "packetlossErrorRate": 3,
+    "jitter": {
+      "value": 12,
+      "unit": "Minutes"
+    }
+  }
+}

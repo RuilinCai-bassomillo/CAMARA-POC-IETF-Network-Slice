@@ -1,0 +1,27 @@
+{
+    "device": {
+        "ipv4Address": {
+            "publicAddress": "172.16.104.221",
+            "publicPort": 8080
+        }
+    },
+    "applicationServer": {
+        "ipv4Address": "172.1.101.22"
+    },
+    "devicePorts": {
+        "ports": [
+            8080
+        ]
+    },
+    "applicationServerPorts": {
+        "ports": [
+            31938
+        ]
+    },
+    "qosProfile": "QOS_Cloud_VR_Service",
+    "sink": "https://endpoint.example.com/sink",
+    "sinkCredential": {
+        "credentialType": "PLAIN"
+    },
+    "duration": 3600
+}

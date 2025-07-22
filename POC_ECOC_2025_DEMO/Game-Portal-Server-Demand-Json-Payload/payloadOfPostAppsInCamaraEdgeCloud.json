@@ -1,0 +1,34 @@
+{
+  
+  "name": "vmb",
+  "appProvider": "huawei",
+  "version": "1.0",
+  "packageType": "CONTAINER",
+  "operatingSystem": {
+    "architecture": "x86_64",
+    "family": "UBUNTU",
+    "version": "OS_VERSION_UBUNTU_2204_LTS",
+    "license": "OS_LICENSE_TYPE_FREE"
+  },
+  "appRepo": {
+    "type": "PRIVATEREPO",
+    "imagePath": "192.168.198.160:5000/ubuntu-ffmpeg-rtmp:latest",
+    "userName": "n/a",
+    "credentials": "n/a",
+    "authType": "NONE",
+    "checksum": "n/a"
+  },
+  "componentSpec": [
+    {
+      "componentName": "vmb-container",
+      "networkInterfaces": [
+        {
+          "interfaceId": "XPUEw30wC_7s",
+          "protocol": "TCP",
+          "port": 31939,
+          "visibilityType": "VISIBILITY_EXTERNAL"
+        }
+      ]
+    }
+  ]
+}

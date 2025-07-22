@@ -1,0 +1,24 @@
+{
+  "appInstances": [
+    {
+      "appInstanceId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+      "status": "ready",
+      "componentEndpointInfo": [
+        {
+          "interfaceId": "LVPKSSixSCMm3TpXY5Cr29yImk",
+          "accessPoints": {
+            "present": true
+          }
+        }
+      ],
+      "kubernetesClusterRef": "642f6105-7015-4af1-a4d1-e1ecb8437abc",
+      "edgeCloudZone": {
+        "edgeCloudZoneId": "3fa85f64-5717-4562-b3fc-2c963f66afa6",
+        "edgeCloudZoneName": "string",
+        "edgeCloudZoneStatus": "active",
+        "edgeCloudProvider": "string",
+        "edgeCloudRegion": "string"
+      }
+    }
+  ]
+}
