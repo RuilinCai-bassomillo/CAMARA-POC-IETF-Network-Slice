@@ -18,8 +18,8 @@
                 },
                 "node": [
                     {
-                        "node-id": "172.16.182.25",
-                        "ietf-te-topology:te-node-id": "172.16.182.25",
+                        "node-id": "172.16.185.25",
+                        "ietf-te-topology:te-node-id": "172.16.185.25",
                         "ietf-network-topology:termination-point": [
                             {
                                 "tp-id": "501",
@@ -440,9 +440,9 @@
                 ],
                 "ietf-network-topology:link": [
                     {
-                        "link-id": "172.16.182.25-501",
+                        "link-id": "172.16.185.25-501",
                         "source": {
-                            "source-node": "172.16.182.25",
+                            "source-node": "172.16.185.25",
                             "source-tp": "501"
                         },
                         "destination": {
@@ -454,7 +454,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.182.25-501",
+                                "name": "172.16.185.25-501",
                                 "te-delay-metric": 1,
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
@@ -483,9 +483,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.182.25-500",
+                        "link-id": "172.16.185.25-500",
                         "source": {
-                            "source-node": "172.16.182.25",
+                            "source-node": "172.16.185.25",
                             "source-tp": "500"
                         },
                         "destination": {
@@ -497,7 +497,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.182.25-500",
+                                "name": "172.16.185.25-500",
                                 "te-delay-metric": 1,
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
@@ -532,7 +532,7 @@
                             "source-tp": "501"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.25",
+                            "dest-node": "172.16.185.25",
                             "dest-tp": "501"
                         },
                         "ietf-te-topology:te": {
@@ -618,7 +618,7 @@
                             "source-tp": "500"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.25",
+                            "dest-node": "172.16.185.25",
                             "dest-tp": "500"
                         },
                         "ietf-te-topology:te": {
@@ -1122,12 +1122,12 @@
                         }
                     },
                     {
-                        "node-id": "172.16.122.25",
-                        "ietf-te-topology:te-node-id": "172.16.122.25",
+                        "node-id": "172.16.125.25",
+                        "ietf-te-topology:te-node-id": "172.16.125.25",
                         "ietf-network-topology:termination-point": [
                             {
                                 "tp-id": "200",
-                                "ietf-te-topology:te-tp-id": "128.32.44.254",
+                                "ietf-te-topology:te-tp-id": 200,
                                 "ietf-eth-te-topology:eth-svc": {
                                     "client-facing": true,
                                     "supported-classification": {
@@ -1439,7 +1439,7 @@
                         "ietf-network-topology:termination-point": [
                             {
                                 "tp-id": "200",
-                                "ietf-te-topology:te-tp-id": "172.10.44.254",
+                                "ietf-te-topology:te-tp-id": 200,
                                 "ietf-eth-te-topology:eth-svc": {
                                     "client-facing": true,
                                     "supported-classification": {
@@ -1564,8 +1564,8 @@
                         }
                     },
                     {
-                        "node-id": "172.16.182.25",
-                        "ietf-te-topology:te-node-id": "172.16.182.25",
+                        "node-id": "172.16.185.25",
+                        "ietf-te-topology:te-node-id": "172.16.185.25",
                         "ietf-network-topology:termination-point": [
                             {
                                 "tp-id": "200",
@@ -2533,9 +2533,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.182.25-200",
+                        "link-id": "172.16.185.25-200",
                         "source": {
-                            "source-node": "172.16.182.25",
+                            "source-node": "172.16.185.25",
                             "source-tp": "200"
                         },
                         "destination": {
@@ -2547,7 +2547,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.182.25-200",
+                                "name": "172.16.185.25-200",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2565,9 +2565,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.122.25-200",
+                        "link-id": "172.16.125.25-200",
                         "source": {
-                            "source-node": "172.16.122.25",
+                            "source-node": "172.16.125.25",
                             "source-tp": "200"
                         },
                         "destination": {
@@ -2579,7 +2579,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.122.25-200",
+                                "name": "172.16.125.25-200",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2603,7 +2603,7 @@
                             "source-tp": "500"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.25",
+                            "dest-node": "172.16.185.25",
                             "dest-tp": "200"
                         },
                         "ietf-te-topology:te": {
@@ -2635,7 +2635,7 @@
                             "source-tp": "501"
                         },
                         "destination": {
-                            "dest-node": "172.16.122.25",
+                            "dest-node": "172.16.125.25",
                             "dest-tp": "200"
                         },
                         "ietf-te-topology:te": {
@@ -2661,9 +2661,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.182.25-501",
+                        "link-id": "172.16.185.25-501",
                         "source": {
-                            "source-node": "172.16.182.25",
+                            "source-node": "172.16.185.25",
                             "source-tp": "501"
                         },
                         "destination": {
@@ -2675,7 +2675,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.182.25-501",
+                                "name": "172.16.185.25-501",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2693,9 +2693,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.182.25-500",
+                        "link-id": "172.16.185.25-500",
                         "source": {
-                            "source-node": "172.16.182.25",
+                            "source-node": "172.16.185.25",
                             "source-tp": "500"
                         },
                         "destination": {
@@ -2707,7 +2707,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.182.25-500",
+                                "name": "172.16.185.25-500",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2731,7 +2731,7 @@
                             "source-tp": "501"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.25",
+                            "dest-node": "172.16.185.25",
                             "dest-tp": "501"
                         },
                         "ietf-te-topology:te": {
@@ -2827,7 +2827,7 @@
                             "source-tp": "500"
                         },
                         "destination": {
-                            "dest-node": "172.16.182.25",
+                            "dest-node": "172.16.185.25",
                             "dest-tp": "500"
                         },
                         "ietf-te-topology:te": {
@@ -2917,9 +2917,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.122.25-501",
+                        "link-id": "172.16.125.25-501",
                         "source": {
-                            "source-node": "172.16.122.25",
+                            "source-node": "172.16.125.25",
                             "source-tp": "501"
                         },
                         "destination": {
@@ -2931,7 +2931,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.122.25-501",
+                                "name": "172.16.125.25-501",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2949,9 +2949,9 @@
                         }
                     },
                     {
-                        "link-id": "172.16.122.25-500",
+                        "link-id": "172.16.125.25-500",
                         "source": {
-                            "source-node": "172.16.122.25",
+                            "source-node": "172.16.125.25",
                             "source-tp": "500"
                         },
                         "destination": {
@@ -2963,7 +2963,7 @@
                             "te-link-attributes": {
                                 "access-type": "point-to-point",
                                 "admin-status": "up",
-                                "name": "172.16.122.25-500",
+                                "name": "172.16.125.25-500",
                                 "max-link-bandwidth": {
                                     "te-bandwidth": {
                                         "ietf-eth-te-topology:eth-bandwidth": 10000000
@@ -2987,7 +2987,7 @@
                             "source-tp": "501"
                         },
                         "destination": {
-                            "dest-node": "172.16.122.25",
+                            "dest-node": "172.16.125.25",
                             "dest-tp": "501"
                         },
                         "ietf-te-topology:te": {
@@ -3083,7 +3083,7 @@
                             "source-tp": "500"
                         },
                         "destination": {
-                            "dest-node": "172.16.122.25",
+                            "dest-node": "172.16.125.25",
                             "dest-tp": "500"
                         },
                         "ietf-te-topology:te": {
@@ -3437,7 +3437,7 @@
                         "supporting-node": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "node-ref": "172.16.122.25"
+                                "node-ref": "172.16.125.25"
                             }
                         ]
                     },
@@ -3470,7 +3470,7 @@
                         "ietf-network-topology:supporting-link": [
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
-                                "link-ref": "172.16.122.25-500"
+                                "link-ref": "172.16.125.25-500"
                             },
                             {
                                 "network-ref": "providerId-10-clientId-0-topologyId-2",
