@@ -10,4 +10,4 @@
 ## 5. curl -X POST -H "content-type:application/json"  http://${onosIp}/restconf/data -d'{"ietf-l3vpn-svc:l3vpn-services":{}}'
 ## 7. post initial network json to http://192.168.198.111:8181/restconf/data
 ##    The json is Topology_Init.json under POC_ECOC_2025_DEMO folder 
-## Step4: delete the networkslice_data.db in osm code which is pythonProject2.py
+# Step4: delete the networkslice_data.db in osm code which is pythonProject2.py
