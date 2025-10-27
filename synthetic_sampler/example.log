@@ -1,0 +1,29 @@
+$ python SyntheticSampler.py
+Settings of samplers:
+  bw_util_sampler= SyntheticSampler(amplitude=23.91117730498577, phase=1.7330827293980343e-08, period=295.44145101765264, offset=28.325378082541526, noise_ratio=0.05, min_value=0.0, max_value=100.0)
+  latency_sampler= SyntheticSampler(amplitude=0.30196834032716974, phase=5.0959351889992674e-08, period=12.933101802507219, offset=7.881070387909832, noise_ratio=0.05, min_value=0.0, max_value=1.7976931348623157e+308)
+3 samples for "now":
+  [L1] SampleSet #1: {'bw_util': Sample(timestamp=1760979924.985184, value=15.914983398813277), 'latency': Sample(timestamp=1760979924.985213, value=7.728412574663286)}
+  [L1] SampleSet #2: {'bw_util': Sample(timestamp=1760979925.986798, value=16.584695177045052), 'latency': Sample(timestamp=1760979925.986883, value=7.783607245122114)}
+  [L1] SampleSet #3: {'bw_util': Sample(timestamp=1760979926.987222, value=16.29980805269509), 'latency': Sample(timestamp=1760979926.987269, value=7.769723916226796)}
+20 samples for a fixed timestamp:
+  [L1] SampleSet #1: {'bw_util': Sample(timestamp=1760978688.581701, value=5.197030916157003), 'latency': Sample(timestamp=1760978688.581701, value=7.398843770576387)}
+  [L1] SampleSet #2: {'bw_util': Sample(timestamp=1760978689.581701, value=4.634737752743686), 'latency': Sample(timestamp=1760978689.581701, value=7.284876178033174)}
+  [L1] SampleSet #3: {'bw_util': Sample(timestamp=1760978690.581701, value=4.570074453461646), 'latency': Sample(timestamp=1760978690.581701, value=7.2142644093214745)}
+  [L1] SampleSet #4: {'bw_util': Sample(timestamp=1760978691.581701, value=4.729663191385262), 'latency': Sample(timestamp=1760978691.581701, value=7.217629291048147)}
+  [L1] SampleSet #5: {'bw_util': Sample(timestamp=1760978692.581701, value=4.572160145695826), 'latency': Sample(timestamp=1760978692.581701, value=7.277299662830188)}
+  [L1] SampleSet #6: {'bw_util': Sample(timestamp=1760978693.581701, value=4.817324350706232), 'latency': Sample(timestamp=1760978693.581701, value=7.394036594566038)}
+  [L1] SampleSet #7: {'bw_util': Sample(timestamp=1760978694.581701, value=4.316069364368076), 'latency': Sample(timestamp=1760978694.581701, value=7.5198162414656515)}
+  [L1] SampleSet #8: {'bw_util': Sample(timestamp=1760978695.581701, value=4.5317311285041475), 'latency': Sample(timestamp=1760978695.581701, value=7.656438488380168)}
+  [L1] SampleSet #9: {'bw_util': Sample(timestamp=1760978696.581701, value=4.77485728318639), 'latency': Sample(timestamp=1760978696.581701, value=7.742429632017509)}
+  [L1] SampleSet #10: {'bw_util': Sample(timestamp=1760978697.581701, value=4.762335452623029), 'latency': Sample(timestamp=1760978697.581701, value=7.787288066444182)}
+  [L1] SampleSet #11: {'bw_util': Sample(timestamp=1760978698.581701, value=4.787376038106412), 'latency': Sample(timestamp=1760978698.581701, value=7.75243218842091)}
+  [L1] SampleSet #12: {'bw_util': Sample(timestamp=1760978699.581701, value=5.476569859119522), 'latency': Sample(timestamp=1760978699.581701, value=7.659514932254546)}
+  [L1] SampleSet #13: {'bw_util': Sample(timestamp=1760978700.581701, value=4.629268693789464), 'latency': Sample(timestamp=1760978700.581701, value=7.52537868600263)}
+  [L1] SampleSet #14: {'bw_util': Sample(timestamp=1760978701.581701, value=4.755470753149213), 'latency': Sample(timestamp=1760978701.581701, value=7.398316064286661)}
+  [L1] SampleSet #15: {'bw_util': Sample(timestamp=1760978702.581701, value=5.0009085793865795), 'latency': Sample(timestamp=1760978702.581701, value=7.2821087942308775)}
+  [L1] SampleSet #16: {'bw_util': Sample(timestamp=1760978703.581701, value=5.768870253746217), 'latency': Sample(timestamp=1760978703.581701, value=7.2116585116736545)}
+  [L1] SampleSet #17: {'bw_util': Sample(timestamp=1760978704.581701, value=4.942718993110766), 'latency': Sample(timestamp=1760978704.581701, value=7.211511530539929)}
+  [L1] SampleSet #18: {'bw_util': Sample(timestamp=1760978705.581701, value=5.9071400017927145), 'latency': Sample(timestamp=1760978705.581701, value=7.281287640010257)}
+  [L1] SampleSet #19: {'bw_util': Sample(timestamp=1760978706.581701, value=5.198254649357427), 'latency': Sample(timestamp=1760978706.581701, value=7.394373873013942)}
+  [L1] SampleSet #20: {'bw_util': Sample(timestamp=1760978707.581701, value=5.071725476427581), 'latency': Sample(timestamp=1760978707.581701, value=7.539765771737733)}
